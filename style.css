@@ -1,0 +1,74 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe4e6;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  body {
+    width: 300px;
+    height: 300px;
+ }
+
+  .header h1 {
+    font-size: 20px;
+    color: #ff6392;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .content input,
+  .content textarea,
+  .content button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .content input, .content textarea {
+    background-color: #fffafc;
+    color: #333;
+  }
+  
+  .content button {
+    background-color: #ff6392;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .content button:hover {
+    background-color: #ff4c78;
+  }
+  
+  #scholarshipList {
+    background: #fefefe;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .scholarship {
+    border-bottom: 1px solid #ffb6c1;
+    padding: 10px 0;
+  }
+  
+  .scholarship:last-child {
+    border-bottom: none;
+  }
+  
+  .scholarship h3 {
+    font-size: 16px;
+    color: #ff6392;
+    margin: 0;
+  }
+  
+  .scholarship p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
