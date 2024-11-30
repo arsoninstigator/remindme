@@ -32,6 +32,7 @@ body {
   .content input, .content textarea {
     background-color: #fffafc;
     color: #333;
+    font-family: 'Poppins', sans-serif;
   }
   
   .content button {

@@ -10,7 +10,7 @@ function saveScholarship() {
     const scholarship = { title, description, url, deadline: new Date(deadline).getTime() };
     chrome.storage.local.get({ scholarships: [] }, (result) => {
       const scholarships = [...result.scholarships, scholarship];
-      scholarships.sort((a, b) => a.deadline - b.deadline); // Sort by deadline
+      scholarships.sort((a, b) => a.deadline - b.deadline); 
       chrome.storage.local.set({ scholarships }, () => {
         displayScholarships();
         alert('Scholarship saved!');
@@ -32,7 +32,7 @@ function displayScholarships() {
         <h3>${scholarship.title}</h3>
         <p>${scholarship.description}</p>
         <a href="${scholarship.url}" target="_blank">Go to website</a>
-        <p>Deadline: ${new Date(scholarship.deadline).toLocaleDateString()}</p>
+        <p>Applications Open: ${new Date(scholarship.deadline).toLocaleDateString()}</p>
       `;
       scholarshipList.appendChild(div);
     });
