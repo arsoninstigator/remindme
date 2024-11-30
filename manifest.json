@@ -3,7 +3,8 @@
     "name": "RemindMe",
     "version": "1.0",
     "description": "Save upcoming scholarships and get reminders when the deadlines approach.",
-    "permissions": ["storage", "alarms"],
+    "permissions": ["notifications", "storage", "alarms", "tabs"],
+    "host_permissions": ["<all_urls>"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {

@@ -15,3 +15,11 @@ chrome.alarms.onAlarm.addListener((alarm) => {
     }
   });
   
+
+  chrome.notifications.onButtonClicked.addListener((notifId, btnIdx) => {
+    if (btnIdx === 0) {
+      chrome.tabs.create({ url: 'https://example.com' }); 
+    }
+  });
+
+  

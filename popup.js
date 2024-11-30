@@ -40,3 +40,15 @@ function displayScholarships() {
 }
 
 document.addEventListener('DOMContentLoaded', displayScholarships);
+
+document.getElementById('testNotification').addEventListener('click', () => {
+    chrome.notifications.create({
+      type: 'basic',
+      iconUrl: 'icon128.png', 
+      title: 'Test Notification',
+      message: 'This is a test notification and one similar to it will appear two days before the scholarship applications open and repeat itself one day prior!',
+      buttons: [{ title: 'Open Example Page' }],
+      priority: 2
+    });
+  });
+  
