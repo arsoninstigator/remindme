@@ -4,18 +4,19 @@ body {
     color: #333;
     margin: 0;
     padding: 10px;
+    overflow: hidden; 
+    max-height: 600px;
   }
   
   body {
     width: 300px;
-    height: 300px;
  }
 
   .header h1 {
-    font-size: 20px;
+    font-size: 18px;
     color: #ff6392;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
   }
   
   .content input,
@@ -23,8 +24,8 @@ body {
   .content button {
     display: block;
     width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
+    margin-bottom: 6px;
+    padding: 6px;
     border: none;
     border-radius: 5px;
   }
@@ -47,17 +48,27 @@ body {
   
   #scholarshipList {
     background: #fefefe;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     max-height: 200px;
     overflow-y: auto;
   }
   
+  .scrollable-list {
+    background: #fefefe;
+    padding: 8px;
+    border-radius: 5px;
+    max-height: 250px; 
+    overflow-y: auto; 
+    border: 1px solid #ffb6c1;
+  }
+
   .scholarship {
     border-bottom: 1px solid #ffb6c1;
-    padding: 10px 0;
+    padding: 8px 0;
   }
   
+
   .scholarship:last-child {
     border-bottom: none;
   }

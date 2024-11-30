@@ -9,17 +9,17 @@
 </head>
 <body>
   <div class="header">
-    <h1>RemindMe- Scholarship & College App Reminder</h1>
+    <h1>RemindMe</h1>
   </div>
   <div class="content">
-    <input type="text" id="title" placeholder="Scholarship/College Name">
+    <input type="text" id="title" placeholder="Scholarship or College Name">
     <textarea id="description" placeholder="Description"></textarea>
-    <input type="url" id="url" placeholder="Scholarship/College URL">
+    <input type="url" id="url" placeholder="Scholarship or College URL">
     <input type="date" id="deadline">
     <button id="saveBtn">Save</button>
     <hr>
     <h2>Upcoming Applications</h2>
-    <div id="scholarshipList"></div>
+    <div id="scholarshipList" class="scrollable-list"></div>
   </div>
   <script src="popup.js"></script>
 </body>
