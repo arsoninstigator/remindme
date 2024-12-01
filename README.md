@@ -1,5 +1,5 @@
 # remindme
-remindme is my first attempt at building a chrome extension for hack club's <b>browser buddy</b> ysws. i came up with this project idea pretty quickly since it was based on my own experience applying to colleges and scholarships this fall.
+remindme is my first attempt at building a chrome extension for hack club's <b>browser buddy</b> ysws. i came up with this project idea pretty quickly since it was based on my own experience applying to colleges and scholarships this fall. i also created a logo for this project for [#anchor](https://github.com/arsoninstigator/remindme/blob/main/logo/remind-me.png)
 
 ## concept
 <b>the problem:</b> this extension solves a specific problem for me — i come across a lot of scholarships i'm eligible for that only open their applications in the future and have strict deadlines. so, im supposed to take a mental note of when to expect to apply for the specific scholarship and keep them all in my mind on written in a notebook, but the problem is that you can't go through a list of scholarship deadlines everyday to scour for ones that are upcoming to act as a mental reminder (because that would make me go insane), so this extension does this work for you! <br><br>
